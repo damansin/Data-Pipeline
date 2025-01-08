@@ -1,4 +1,4 @@
-# Custom ELT Project
+# ELT Pipeline Project
 
 This repository demonstrates a custom **Extract, Load, Transform (ELT)** pipeline using **Docker**, **Apache Airflow**, **dbt**, and **PostgreSQL**. The project automates the process of extracting data from a source PostgreSQL database, loading it into a destination database, and transforming it using dbt.
 
