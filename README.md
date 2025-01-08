@@ -14,7 +14,7 @@ This repository demonstrates a custom **Extract, Load, Transform (ELT)** pipelin
 
 - **airflow/dags/elt_dag.py**: Airflow Directed Acyclic Graph (DAG) that orchestrates the ELT process, including running the Python ELT script and dbt for transformations.
 
-- **custom_postgres**: Folder containing dbt models for data transformations.
+- **custom_postgres**: Folder containing dbt models and macros for data transformations.
 
 - **source_db_init/init.sql**: Initializes the source PostgreSQL database with sample data.
 
