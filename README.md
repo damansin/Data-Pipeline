@@ -1,9 +1,17 @@
-# Data-Pipeline
+# Custom ELT Project using Docker, Airflow, dbt, and PostgreSQL
 
-This project demonstrates an end-to-end data pipeline built using Python, PostgresSQL, Docker, dbt, Apache Airflow, and Cron jobs.
+This project demonstrates a simple **ELT (Extract, Load, Transform)** pipeline using **Docker**, **Airflow**, **dbt**, and **PostgreSQL**. The pipeline extracts data from a source PostgreSQL database, loads it into a destination PostgreSQL database, and applies transformations using dbt for further analysis.
 
-## Key Features
-- Automated ETL workflows with Airflow DAGs
-- Data transformation using dbt
-- Containerized with Docker for portability
-- Scheduled tasks with Cron jobs
+## Features:
+- **Docker Compose** to orchestrate the services.
+- **Airflow** for workflow orchestration, scheduling, and task management.
+- **dbt** for data transformations and modeling.
+- **PostgreSQL** as both source and destination databases.
+
+## Getting Started:
+1. Clone the repository.
+2. Run `./start.sh` to bring up all the containers.
+3. Access the Airflow UI at [http://localhost:8080](http://localhost:8080).
+4. Set up connections and run the ELT pipeline.
+
+This project showcases a complete ELT process with automation and modern data tools. It can be extended and customized for various data integration and transformation use cases.
